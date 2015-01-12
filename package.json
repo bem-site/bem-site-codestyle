@@ -1,0 +1,26 @@
+{
+  "name": "bem-site-codestyle",
+  "version": "0.1.0",
+  "scripts": {
+      "postinstall": "rsync -av ./ --exclude package.json --exclude README.md --exclude codestyle/ ../../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem-site/bem-site-codestyle.git"
+  },
+  "keywords": [
+    "codestyle",
+    "bem-site"
+  ],
+  "peerDependencies": {
+      "git-hooks": "^0.0.6",
+      "jscs": "^1.8.1",
+      "jshint": "^2.5.10",
+      "jshint-groups": "^0.6.2"
+  },
+  "publishConfig": {
+      "registry": "http://registry.npmjs.org/"
+  },
+  "author": "info@bem.info",
+  "readmeFilename": "README.md"
+}
