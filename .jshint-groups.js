@@ -23,7 +23,10 @@ module.exports = {
         browserjs : {
             options : {
                 browser : true,
-                predef : ['modules']
+                predef : [
+                    'console',
+                    'modules'
+                ]
             },
             includes : ['src/blocks/common.blocks/**/*.js'],
             excludes : [
@@ -85,6 +88,7 @@ module.exports = {
                     'bem',
                     'block',
                     'cls',
+                    'console',
                     'content',
                     'def',
                     'elem',
@@ -95,7 +99,8 @@ module.exports = {
                     'mod',
                     'mode',
                     'req',
-                    'tag'
+                    'tag',
+                    '_'
                 ]
             },
             includes : ['src/blocks/common.blocks/**/*.bemtree']
