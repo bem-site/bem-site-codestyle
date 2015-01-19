@@ -1,6 +1,6 @@
 {
   "name": "bem-site-codestyle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
       "postinstall": "rsync -av ./ --exclude package.json --exclude README.md --exclude codestyle/ ../../"
   },
@@ -14,7 +14,7 @@
   ],
   "peerDependencies": {
       "git-hooks": "^0.0.6",
-      "jscs": "^1.8.1",
+      "jscs": "^1.10.0",
       "jshint": "^2.5.10",
       "jshint-groups": "^0.6.2"
   },
