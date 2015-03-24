@@ -1,6 +1,6 @@
 {
   "name": "bem-site-codestyle",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
       "postinstall": "rsync -av ./ --exclude package.json --exclude README.md --exclude codestyle/ ../../"
   },
