@@ -99,6 +99,7 @@ module.exports = {
                     'mod',
                     'mode',
                     'req',
+                    'require',
                     'tag',
                     '_'
                 ]
